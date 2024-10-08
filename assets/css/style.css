@@ -620,6 +620,18 @@ p {
   --bs-gutter-x: 30px;
 }
 
+
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1250px;
+  }
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1350px;
+  }
+}
 @media (min-width: 1400px) {
 
   .container,
@@ -629,12 +641,6 @@ p {
   .container-xl,
   .container-xxl {
     max-width: 1440px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container-small {
-    max-width: 1200px;
   }
 }
 
